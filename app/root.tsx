@@ -1,10 +1,11 @@
-import {
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "@remix-run/react";
+// import type { LinksFunction } from '@remix-run/node';
+import { Links, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
+// eslint-disable-next-line import/no-unresolved
+// import iconsSpritesheetUrl from '~/icons/icons-spritesheet.svg';
+
+// export const links: LinksFunction = () => [
+//   { rel: 'preload', href: iconsSpritesheetUrl, as: 'image', type: 'image/svg+xml' },
+// ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (

@@ -3,3 +3,6 @@ node_modules
 /.cache
 /build
 .env
+
+app/icons/icons-spritesheet.svg
+app/icons/types.ts
