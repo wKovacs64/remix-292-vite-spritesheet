@@ -12,6 +12,7 @@ export default defineConfig({
       inputDir: './app/assets/svg-icons',
       outputDir: './app/icons',
       fileName: 'icons-spritesheet.svg',
+      iconNameTransformer: (iconFilename) => iconFilename,
       withTypes: true,
     }),
     remix(),
